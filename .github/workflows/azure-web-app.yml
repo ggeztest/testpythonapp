@@ -24,4 +24,4 @@ jobs:
     # Azure Login
     - name: Azure Login
       run:
-        echo ${{ secrets.AZURE_CREDENTIALS }}
+        echo "${{ secrets.AZURE_CREDENTIALS }}"
